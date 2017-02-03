@@ -10,7 +10,7 @@ My game story :
   does not stay in the place. Entering Hell is easy but leaving is not going to
   be easy as he thought.
 
-    His objective is to retrieve 10 souls of devil monster using it to power the
+    His objective is to retrieve 3 souls of devil monster using it to power the
   exit gate. So that, he can go back to the human world.
 
   - Level 2 : "The way to Heaven is not so easy either!"
