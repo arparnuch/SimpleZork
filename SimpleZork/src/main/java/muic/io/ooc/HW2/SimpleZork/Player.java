@@ -93,17 +93,6 @@ public class Player{
 
 
 
-    public void attackWith(Weapon w){
-
-    }
-
-    public void help(){
-
-    }
-
-    public void quit(){
-
-    }
 
 }
 

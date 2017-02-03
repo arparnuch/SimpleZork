@@ -9,6 +9,7 @@ public class Monster{
     private double attackPoint;
     private int level;
 
+
     public String getNameM() {
         return nameM;
     }
