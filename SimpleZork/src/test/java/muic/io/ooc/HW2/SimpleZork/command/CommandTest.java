@@ -13,6 +13,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.Set;
 
+import static muic.io.ooc.HW2.SimpleZork.ZorkGame.args;
 import static org.junit.Assert.*;
 
 /**
@@ -57,7 +58,21 @@ public class CommandTest{
 
     @Test
     public void DropCommand() throws Exception {
+        Setup setup = new Setup();
+        Player player = setup.createSetup();
+        Potion potion = new Potion();
+        potion.setHealPoint(5);
+        double beforeHP = player.getHPPlayer();
+        System.out.println("before " + beforeHP);
+        player.take(potion);
+        potion.setName("test");
+        ArrayList<String> name = new ArrayList<>(); name.add("test");
+        args.put("drop", name);
+        ArrayList<String> willBeDropItem = args.get("drop"); // can only use one item!!
 
+        CommandFactory.getCommand("use").apply(player);
+
+//        System.out.println("Now " + player.getHPPlayer());
     }
 
     @Test
@@ -86,6 +101,20 @@ public class CommandTest{
     public void UseCommand() throws Exception {
         Setup setup = new Setup();
         Player player = setup.createSetup();
+        Potion potion = new Potion();
+        potion.setHealPoint(5);
+        double beforeHP = player.getHPPlayer();
+        System.out.println("before " + beforeHP);
+        player.take(potion);
+        potion.setName("test");
+        ArrayList<String> name = new ArrayList<>(); name.add("test");
+        args.put("use", name);
+        ArrayList<String> willBeUsedItem = args.get("use"); // can only use one item!!
+        CommandFactory.getCommand("use").apply(player);
+        double nowHP = player.getHPPlayer();
+//        System.out.println("Now " + player.getHPPlayer());
+
+        assertTrue(nowHP > beforeHP);
 
     }
 
