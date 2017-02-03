@@ -58,19 +58,19 @@ public class CommandTest{
 
     @Test
     public void DropCommand() throws Exception {
-        Setup setup = new Setup();
-        Player player = setup.createSetup();
-        Potion potion = new Potion();
-        potion.setHealPoint(5);
-        double beforeHP = player.getHPPlayer();
-        System.out.println("before " + beforeHP);
-        player.take(potion);
-        potion.setName("test");
-        ArrayList<String> name = new ArrayList<>(); name.add("test");
-        args.put("drop", name);
-        ArrayList<String> willBeDropItem = args.get("drop"); // can only use one item!!
-
-        CommandFactory.getCommand("use").apply(player);
+//        Setup setup = new Setup();
+//        Player player = setup.createSetup();
+//        Potion potion = new Potion();
+//        potion.setHealPoint(5);
+//        double beforeHP = player.getHPPlayer();
+//        System.out.println("before " + beforeHP);
+//        player.take(potion);
+//        potion.setName("test");
+//        ArrayList<String> name = new ArrayList<>(); name.add("test");
+//        args.put("drop", name);
+//        ArrayList<String> willBeDropItem = args.get("drop"); // can only use one item!!
+//
+//        CommandFactory.getCommand("use").apply(player);
 
 //        System.out.println("Now " + player.getHPPlayer());
     }
