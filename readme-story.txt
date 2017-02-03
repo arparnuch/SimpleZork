@@ -15,22 +15,15 @@ My game story :
 
   - Level 2 : "The way to Heaven is not so easy either!"
     After exiting from Hell, Meow can only thought of the last place left that
-  his cat soul would go, "Heaven". In order to gain access to Heaven, Meow ask
-  the wicked witch for help. The witch will cast the ancient magic to send the
-  human to Heaven. However, she asks for "Golden Feather" in return which will
-  be drop from Golden Hen only.
+  his cat soul would go, "Heaven". In order to gain access to Heaven, Meow has
+  to fight his way through to the Heaven!
 
-    His objective is to retrieve a Golden Feather from Golden Hen (The chance of
-  dropping is quite small). Then, he will trade the feather for the assist of
-  the witch.
+    His objective is to kill all the monster in Level 2.!
 
-  - Level 3 : "Where is my cat!!!"
+  - Level 3 : "Where is my cat!!!?"
     After a very long journey, the human thought "Finally, I will find my cat!!".
-  The truth is that it is not so easy. All souls entered into the heaven will alter
-  their shapes into human forms. If he choose the right one, his cat will become
-  a cat fairy and live with him forever. Otherwise, he will be separated from
-  his beloved cat forever.
+  The truth is that it is not so easy. His cat soul now belongs to the Devil Cat!
+  Again, the owner must defeat the monster to release the cat soul. However, the
+  monster appear randomly. The owner has to find it searching room by room.
 
-    His objective is to talk with every souls in the heaven (three to be exact)
-  and try to identify which one is his beloved cat. Then, he will go to tell
-  the main guardian of Heaven of his decision.
+    His objective is to find and kill the boss of Level 3!!!.

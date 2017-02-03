@@ -10,23 +10,6 @@ public class Weapon extends Item {
     private String type;
     private int damagePoint;
 
-//    @Override
-//    public void useItem(Player player) {
-//        int currentMonsHP = player.getRoom().getMonster().getHP();
-//        player.getRoom().getMonster().setHP(currentMonsHP-player.getAttackPoint());
-//
-//        if (player.getRoom().getMonster().getHP() == 0){
-//            int newAttackPoint = (int) (player.getAttackPoint() * 1.1);
-//
-//            player.setAttackPoint(newAttackPoint);
-//        }
-//    }
-
-
-    @Override
-    public void useItem(Player player, Item item) {
-
-    }
 
     public String getType() {
         return type;

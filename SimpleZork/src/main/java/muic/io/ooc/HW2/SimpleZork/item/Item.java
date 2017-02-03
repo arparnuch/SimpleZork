@@ -6,7 +6,7 @@ import muic.io.ooc.HW2.SimpleZork.Player;
  * Created by arparnuch on 1/29/2017 AD.
  */
 public abstract class Item{
-    final int MAX_ITEM = 3;
+
     int item_type;
     String name;
 
@@ -28,7 +28,7 @@ public abstract class Item{
     }
 
 
-    public abstract void useItem(Player player, Item item); // use
+
 
 
 
